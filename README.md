@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Private Blog Site  
 
-## Getting Started
+This is a private blog site built using **Next.js**. The site is designed to have two separate sections:  
+1. A **public blog section** where visitors can view posts.  
+2. An **admin panel** for managing posts and media, accessible via a unique URL.  
 
-First, run the development server:
+The site has a **modern, responsive design** and uses additional technologies to enhance appearance and performance.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features  
+- **Public Blog Section**  
+  - Displays blog posts in a clean, organized layout.  
+  - Fully responsive and optimized for all devices.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Admin Panel**  
+  - Allows the admin to create, edit, and delete posts.  
+  - Separate from the public section, accessible via a unique URL.  
+  - No login system; the admin panel is private by design.  
 
-You can start editing the page by modifying `app/page.client.tsx`. The page auto-updates as you edit the file.
+- **Modern Design**  
+  - Styled with **Tailwind CSS** for flexibility and responsiveness.  
+  - Smooth animations using **Framer Motion**.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used  
+- [Next.js](https://nextjs.org/) – The core framework for building the site.  
+- [Tailwind CSS](https://tailwindcss.com/) – For modern, responsive styling.  
+- [Framer Motion](https://www.framer.com/motion/) – For smooth animations and transitions.  
 
-## Learn More
+## Getting Started  
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites  
+- Node.js (v16 or later)  
+- npm or yarn  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/private-blog.git
+   cd private-blog
